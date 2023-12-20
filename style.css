@@ -47,7 +47,7 @@ header div:first-child{
 }
 header div:nth-child(n+2){
 flex-basis: 50%;
-font-size: 13px;
+font-size: 15px;
 font-weight: 500;
 }
 
@@ -74,3 +74,40 @@ button{
     color: aliceblue;
     text-transform: uppercase;
 }
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px 10px;
+
+}
+#status{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.transaction {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .transaction p {
+    margin: 5px 0;
+  }
+
+  .delete {
+    padding: 5px 10px;
+    background-color: rgb(95, 95, 138);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete:hover {
+    background-color: #705270;
+  }
